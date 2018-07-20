@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<im.ene.toro.widget.Container-->
+        <!--android:id="@+id/player_container"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+        <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+            <!--&lt;!&ndash;tools:context=".UI.StepFragment"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/rv_step_details"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="match_parent"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+    <!--</im.ene.toro.widget.Container>-->
+</FrameLayout>

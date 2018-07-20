@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sv_fragment_detail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/iv_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredients"
+        android:textStyle="bold"
+        android:clickable="false"
+        android:background="#D1F5C8"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/iv_steps"
+        android:text="@string/tv_steps"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#D1F5C8"
+        android:clickable="false"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
